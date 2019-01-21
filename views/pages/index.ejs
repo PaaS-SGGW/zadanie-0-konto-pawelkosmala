@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zadanie 0</title>
+    <link rel="stylesheet" type="text/css" href="/styles/main.css" />
+  </head>
+
+  <body>
+        <div class="container">
+            <h2>Elementy w bazie danych:</h2>
+            <ul>
+                <% results.forEach(function(item) { %>
+                    <li><%= item.value %></li>
+                <% }); %>
+            </ul>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "zadanie-0-konto-pawelkosmala",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaaS-SGGW/zadanie-0-konto-pawelkosmala.git"
+  },
+  "author": "",
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "pg": "^7.4.3"
+  }
+}
